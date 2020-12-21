@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.uio.no/vm/eu-nis-directive-sectors#"
+     xml:base="http://www.uio.no/vm/eu-nis-directive-sectors"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/">
+        <owl:versionIRI rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/1.0"/>
+        <rdfs:comment xml:lang="en">A sectors taxonomy in Web Ontology Language (OWL). It is derived from the sectors annotated in the EU NIS Directive that include operators of essential services.
+
+The criteria for the identification of the operators of essential services, as referred to in point (4) of Article 4, shall be as follows:
+(a) an entity provides a service which is essential for the maintenance of critical societal and/or economic activities;
+
+(b) the provision of that service depends on network and information systems; and
+
+(c) an incident would have significant disruptive effects on the provision of that service.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Maintainer: Vasileios Mavroeidis
+Affiliation: University of Oslo - Digital Security Group
+
+http://www.vasileiosmavroeidis.com</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L1148&amp;from=EN#ntr17-L_2016194EN.01000101-E0017"/>
+        <rdfs:isDefinedBy xml:lang="en">DIRECTIVE (EU) 2016/1148 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+
+of 6 July 2016
+
+concerning measures for a high common level of security of network and information systems across the Union</rdfs:isDefinedBy>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#AirTransport -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#AirTransport">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Transport"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Air carriers as defined in point (4) of Article 3 of Regulation (EC) No 300/2008 of the European Parliament and of the Council.
+
+-Airport managing bodies as defined in point (2) of Article 2 of Directive 2009/12/EC of the European Parliament and of the Council, airports as defined in point (1) of Article 2 of that Directive, including the core airports listed in Section 2 of Annex II to Regulation (EU) No 1315/2013 of the European Parliament and of the Council, and entities operating ancillary installations contained within airports.
+
+-Traffic management control operators providing air traffic control (ATC) services as defined in point (1) of Article 2 of Regulation (EC) No 549/2004 of the European Parliament and of the Council.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Banking -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Banking">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Credit institutions as defined in point (1) of Article 4 of Regulation (EU) No 575/2013 of the European Parliament and of the Council.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#DigitalInfrastructure -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#DigitalInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-IXPs
+The function of an internet exchange point (IXP) is to interconnect networks. An IXP does not provide network access or act as a transit provider or carrier. Nor does an IXP provide other services unrelated to interconnection, although this does not preclude an IXP operator from providing unrelated services. An IXP exists to interconnect networks that are technically and organisationally separate. The term ‘autonomous system’ is used to describe a technically stand-alone network.
+
+-DNS service providers
+‘domain name system (DNS)’ means a hierarchical distributed naming system in a network which refers queries for domain names.
+
+‘DNS service provider’ means an entity which provides DNS services on the internet.
+
+-TLD name registries
+‘top-level domain name registry’ means an entity which administers and operates the registration of internet domain names under a specific top-level domain (TLD).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#DrinkingWaterSupplyAndDistribution -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#DrinkingWaterSupplyAndDistribution">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Suppliers and distributors of water intended for human consumption as defined in point (1)(a) of Article 2 of Council Directive 98/83/EC but excluding distributors for whom distribution of water for human consumption is only part of their general activity of distributing other commodities and goods which are not considered essential services.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Electricity -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Electricity">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Energy"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Electricity undertakings as defined in point (35) of Article 2 of Directive 2009/72/EC of the European Parliament and of the Council (1), which carry out the function of ‘supply’ as defined in point (19) of Article 2 of that Directive.
+
+-Distribution system operators as defined in point (6) of Article 2 of Directive 2009/72/EC
+
+-Transmission system operators as defined in point (4) of Article 2 of Directive 2009/72/EC</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Energy -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Energy">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#FinancialMarketInfrastructures -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#FinancialMarketInfrastructures">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Operators of trading venues as defined in point (24) of Article 4 of Directive 2014/65/EU of the European Parliament and of the Council.
+
+-Central counterparties (CCPs) as defined in point (1) of Article 2 of Regulation (EU) No 648/2012 of the European Parliament and of the Council.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Gas -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Gas">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Energy"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Supply undertakings as defined in point (8) of Article 2 of Directive 2009/73/EC of the European Parliament and of the Council.
+
+-Distribution system operators as defined in point (6) of Article 2 of Directive 2009/73/EC.
+
+-Transmission system operators as defined in point (4) of Article 2 of Directive 2009/73/EC.
+
+-Storage system operators as defined in point (10) of Article 2 of Directive 2009/73/EC.
+
+-LNG system operators as defined in point (12) of Article 2 of Directive 2009/73/EC.
+
+-Natural gas undertakings as defined in point (1) of Article 2 of Directive 2009/73/EC.
+
+-Operators of natural gas refining and treatment facilities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#HealthSector -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#HealthSector">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+Health care settings (including hospitals and private clinics).
+
+Healthcare providers as defined in point (g) of Article 3 of Directive 2011/24/EU of the European Parliament and of the Council.
+
+‘healthcare provider’ means any natural or legal person or any other entity legally providing healthcare on the territory of a Member State.
+
+‘healthcare’ means health services provided by health professionals to patients to assess, maintain or restore their state of health, including the prescription, dispensation and provision of medicinal products and medical devices.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Oil -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Oil">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Energy"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Operators of oil transmission pipelines.
+
+-Operators of oil production, refining and treatment facilities, storage and transmission.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#RailTransport -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#RailTransport">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Transport"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Infrastructure managers as defined in point (2) of Article 3 of Directive 2012/34/EU of the European Parliament and of the Council.
+
+-Railway undertakings as defined in point (1) of Article 3 of Directive 2012/34/EU, including operators of service facilities as defined in point (12) of Article 3 of Directive 2012/34/EU.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#RoadTransport -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#RoadTransport">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Transport"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+-Road authorities as defined in point (12) of Article 2 of Commission Delegated Regulation (EU) 2015/962 responsible for traffic management control.
+
+-Operators of Intelligent Transport Systems as defined in point (1) of Article 4 of Directive 2010/40/EU of the European Parliament and of the Council.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors">
+        <rdfs:comment xml:lang="en">Sectors annotated in the NIS directive include operators of essential services.
+
+The criteria for the identification of the operators of essential services, as referred to in point (4) of Article 4, shall be as follows:
+(a) an entity provides a service which is essential for the maintenance of critical societal and/or economic activities;
+
+(b) the provision of that service depends on network and information systems; and
+
+(c) an incident would have significant disruptive effects on the provision of that service.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#Transport -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#Transport">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Sectors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-sectors/#WaterTransport -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-sectors/#WaterTransport">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-sectors/#Transport"/>
+        <rdfs:comment xml:lang="en">Type of entity:
+
+Inland, sea and coastal passenger and freight water transport companies, as defined for maritime transport in Annex I to Regulation (EC) No 725/2004 of the European Parliament and of the Council, not including the individual vessels operated by those companies.
+
+-Managing bodies of ports as defined in point (1) of Article 3 of Directive 2005/65/EC of the European Parliament and of the Council, including their port facilities as defined in point (11) of Article 2 of Regulation (EC) No 725/2004, and entities operating works and equipment contained within ports.
+
+-Operators of vessel traffic services as defined in point (o) of Article 3 of Directive 2002/59/EC of the European Parliament and of the Council.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
