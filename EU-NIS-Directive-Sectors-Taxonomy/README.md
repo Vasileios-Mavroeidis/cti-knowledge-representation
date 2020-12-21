@@ -1,4 +1,4 @@
-A **sectors** taxonomy in Web Ontology Language (OWL). It is derived from the sectors annotated in the [EU NIS Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L1148&from=EN#ntr17-L_2016194EN.01000101-E0017) that include operators of essential services.
+A **sectors** taxonomy defined in the Web Ontology Language (OWL). It is derived from the sectors annotated in the [EU NIS Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L1148&from=EN#ntr17-L_2016194EN.01000101-E0017) that include operators of essential services.
 
 The criteria for the identification of the operators of essential services, as referred to in point (4) of Article 4, shall be as follows:
 
