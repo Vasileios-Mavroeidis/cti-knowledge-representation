@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.uio.no/vm/eu-nis-directive-digital-services#"
+     xml:base="http://www.uio.no/vm/eu-nis-directive-digital-services"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.uio.no/vm/eu-nis-directive-digital-services/">
+        <owl:versionIRI rdf:resource="http://www.uio.no/vm/eu-nis-directive-digital-services/1.0"/>
+        <rdfs:comment xml:lang="en">A digital services taxonomy in the Web Ontology Language (OWL) derived from the digital services annotated in the EU NIS Directive.
+
+For the digital services annotated, their reliability and security are essential to economic and societal activities, and in particular to the functioning of the internal market of the EU as a whole and each member state atomically.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Maintainer: Vasileios Mavroeidis
+Affiliation: University of Oslo - Digital Security Group
+
+http://www.vasileiosmavroeidis.com</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L1148&amp;from=EN#ntr17-L_2016194EN.01000101-E0017"/>
+        <rdfs:isDefinedBy xml:lang="en">DIRECTIVE (EU) 2016/1148 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+
+of 6 July 2016
+
+concerning measures for a high common level of security of network and information systems across the Union</rdfs:isDefinedBy>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-digital-services/#CloudComputingService -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-digital-services/#CloudComputingService">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-digital-services/#DigitalServices"/>
+        <rdfs:comment xml:lang="en">Cloud computing services span a wide range of activities that can be delivered according to different models. For the purposes of this Directive, the term ‘cloud computing services’ covers services that allow access to a scalable and elastic pool of shareable computing resources. Those computing resources include resources such as networks, servers or other infrastructure, storage, applications and services. The term ‘scalable’ refers to computing resources that are flexibly allocated by the cloud service provider, irrespective of the geographical location of the resources, in order to handle fluctuations in demand. The term ‘elastic pool’ is used to describe those computing resources that are provisioned and released according to demand in order to rapidly increase and decrease resources available depending on workload. The term ‘shareable’ is used to describe those computing resources that are provided to multiple users who share a common access to the service, but where the processing is carried out separately for each user, although the service is provided from the same electronic equipment.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-digital-services/#DigitalServices -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-digital-services/#DigitalServices">
+        <rdfs:comment xml:lang="en">‘digital service’ means a service within the meaning of point (b) of Article 1(1) of Directive (EU) 2015/1535 of the European Parliament and of the Council (17) which is of a type listed in Annex III;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-digital-services/#OnlineMarketplace -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-digital-services/#OnlineMarketplace">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-digital-services/#DigitalServices"/>
+        <rdfs:comment xml:lang="en">An online marketplace allows consumers and traders to conclude online sales or service contracts with traders, and is the final destination for the conclusion of those contracts. It should not cover online services that serve only as an intermediary to third-party services through which a contract can ultimately be concluded. It should therefore not cover online services that compare the price of particular products or services from different traders, and then redirect the user to the preferred trader to purchase the product. Computing services provided by the online marketplace may include processing of transactions, aggregations of data or profiling of users. Application stores, which operate as online stores enabling the digital distribution of applications or software programmes from third parties, are to be understood as being a type of online marketplace.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.uio.no/vm/eu-nis-directive-digital-services/#OnlineSearchEngine -->
+
+    <owl:Class rdf:about="http://www.uio.no/vm/eu-nis-directive-digital-services/#OnlineSearchEngine">
+        <rdfs:subClassOf rdf:resource="http://www.uio.no/vm/eu-nis-directive-digital-services/#DigitalServices"/>
+        <rdfs:comment xml:lang="en">An online search engine allows the user to perform searches of, in principle, all websites on the basis of a query on any subject. It may alternatively be focused on websites in a particular language. The definition of an online search engine provided in this Directive should not cover search functions that are limited to the content of a specific website, irrespective of whether the search function is provided by an external search engine. Neither should it cover online services that compare the price of particular products or services from different traders, and then redirect the user to the preferred trader to purchase the product.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
