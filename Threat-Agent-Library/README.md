@@ -6,7 +6,7 @@ This repository includes a Threat Actor Type Ontology [1] based on Intel's Threa
 - The file tal.owl imports the tal-axioms.owl file.
 
 ## Note
-This work will be maintained and extended by the OASIS Standards Development Technical Committee [Threat Actor Context (TAC)](https://www.oasis-open.org/committees/tac/).
+This work will be maintained and extended by the OASIS (SDO) [Threat Actor Context (TAC)](https://www.oasis-open.org/committees/tac/) Technical Committee.
 
 
 
